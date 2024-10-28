@@ -98,3 +98,5 @@ function centralnews_widgets_init()
 }
 
 add_action('widgets_init', 'centralnews_widgets_init');
+
+
