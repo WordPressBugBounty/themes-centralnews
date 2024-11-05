@@ -5,7 +5,7 @@ Author:     AF themes
 Author URI: https://afthemes.com/
 Description: CentralNews is a user-friendly WordPress theme designed for news, blog, and magazine websites. It lets you quickly set up your site with one-click demo imports and easily manage content using 9+ custom widgets. The theme offers stylish options like various banners, light/dark mode, and is customizable via the live customizer. Supporting RTL languages and compatible with Elementor, Gutenberg blocks, and WooCommerce, it even allows for seamless integration of an online store. CentralNews is optimized for search engines and comes with dedicated support. Explore demos and documentation at https://afthemes.com/products/centralnews/.
 Template: morenews
-Version: 1.3.17
+Version: 1.3.18
 Requires PHP: 5.6
 Tested up to: 6.6
 License: GNU General Public License v2 or later
@@ -19,6 +19,40 @@ Use it to make something cool, have fun, and share what you've learned with othe
 CentralNews WordPress Theme, Copyright 2024 AF themes
 CentralNews is distributed under the terms of the GNU GPL v2 or later.
 */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.widget-title span,
+.header-after1 span,
+.read-title h3 {
+    line-height: 1.4;
+}
+
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+    line-height: 1.7;
+}
+
+input {
+    vertical-align: middle;
+}
+
+textarea {
+    width: 100%;
+}
+
+p {
+    margin-bottom: 20px;
+}
 
 
 
@@ -60,18 +94,6 @@ a.morenews-categories.category-color-2 {
     color: #BF0A30;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.widget-title span,
-.header-after1 span,
-.read-title h3 {
-    line-height: 1.4;
-}
-
 .entry-content,
 .entry-header .post-excerpt {
     font-size: 18px;
@@ -80,27 +102,6 @@ h6,
 body.single-post .entry-title,
 h1.page-title {
     font-size: 34px;
-}
-
-body,
-button,
-input,
-select,
-optgroup,
-textarea {
-    line-height: 1.7;
-}
-
-input {
-    vertical-align: middle;
-}
-
-textarea {
-    width: 100%;
-}
-
-p {
-    margin-bottom: 20px;
 }
 
 .cat-links li a {
@@ -285,8 +286,8 @@ a.awpa-more-posts:hover {
     border-bottom: 1px solid !important;
 }
 
-.single h3.awpa-title,
-.single .awpa-review-field h3 {
+body.single h3.awpa-title,
+body.single .awpa-review-field h3 {
     margin-top: 2.5rem;
     padding-top: 2.5rem;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
@@ -350,13 +351,13 @@ a.awpa-more-posts:hover {
 }
 
 
-.af-social-contacts .social-widget-menu .screen-reader-text {
+body .af-social-contacts .social-widget-menu .screen-reader-text {
     font-size: 14px;
     font-weight: 700;
 }
 
-.social-widget-menu ul li a:after,
-.aft-small-social-menu ul li a:after {
+body .social-widget-menu ul li a:after,
+body .aft-small-social-menu ul li a:after {
     font-size: 16px;
 }
 
@@ -372,7 +373,7 @@ pre.wp-block-verse {
 }
 
 
-.post-navigation .em-post-navigation {
+body .post-navigation .em-post-navigation {
     opacity: 1;
 }
 
