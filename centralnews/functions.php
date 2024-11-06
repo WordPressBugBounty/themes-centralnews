@@ -73,6 +73,10 @@ function centralnews_filter_default_theme_options($defaults)
     $defaults['secondary_color'] = '#BF0A30';
     $defaults['global_show_min_read'] = 'no';
     $defaults['frontpage_content_type']  = 'frontpage-widgets-and-content';
+    $defaults['show_featured_post_list_section']  = 1;
+    $defaults['featured_post_list_section_title_1']           = __('General', 'centralnews');
+    $defaults['featured_post_list_section_title_2']           = __('Update', 'centralnews');
+    $defaults['featured_post_list_section_title_3']           = __('More', 'centralnews');
     return $defaults;
 }
 add_filter('morenews_filter_default_theme_options', 'centralnews_filter_default_theme_options', 1);
