@@ -73,6 +73,7 @@ function centralnews_filter_default_theme_options($defaults)
     $defaults['secondary_color'] = '#BF0A30';
     $defaults['global_show_min_read'] = 'no';
     $defaults['frontpage_content_type']  = 'frontpage-widgets-and-content';
+    $defaults['featured_news_section_title'] = __('Featured', 'centralnews');
     $defaults['show_featured_post_list_section']  = 1;
     $defaults['featured_post_list_section_title_1']           = __('General', 'centralnews');
     $defaults['featured_post_list_section_title_2']           = __('Update', 'centralnews');
