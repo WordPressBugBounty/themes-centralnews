@@ -1,4 +1,12 @@
 <?php
+function centralnews_theme_woocommerce_support()
+{
+    if (class_exists('WooCommerce')) {
+        add_theme_support('woocommerce');
+    }
+}
+add_action('after_setup_theme', 'centralnews_theme_woocommerce_support');
+
 if (!function_exists('centralnews_theme_enqueue_styles')) {
     add_action('wp_enqueue_scripts', 'centralnews_theme_enqueue_styles');
 
@@ -103,5 +111,3 @@ function centralnews_widgets_init()
 }
 
 add_action('widgets_init', 'centralnews_widgets_init');
-
-
