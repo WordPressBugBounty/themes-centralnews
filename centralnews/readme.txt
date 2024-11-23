@@ -46,6 +46,10 @@ CentralNews includes support for the following plugins:
 - **Yoast SEO**: Supports enhanced SEO features and breadcrumbs for improved visibility.
 
 == Change-log ==
+= 2.0.13 - Nov 23 2024 =
+* Update - Style improvement
+* Update - Block Style improvement
+
 = 2.0.12 - Nov 21 2024 =
 * Update - Style improvement
 * Update - Block Style improvement
