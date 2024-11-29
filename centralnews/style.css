@@ -5,7 +5,7 @@ Author:     AF themes
 Author URI: https://afthemes.com/
 Description: CentralNews is a user-friendly WordPress theme designed for news, blog, and magazine websites. It lets you quickly set up your site with one-click demo imports and easily manage content using 9+ custom widgets. The theme offers stylish options like various banners, light/dark mode, and is customizable via the live customizer. Supporting RTL languages and compatible with Elementor, Gutenberg blocks, and WooCommerce, it even allows for seamless integration of an online store. CentralNews is optimized for search engines and comes with dedicated support. Explore demos and documentation at https://afthemes.com/products/centralnews/.
 Template: morenews
-Version: 2.0.15
+Version: 2.0.16
 Requires at least: 5.3
 WC requires at least: 3.0
 WC tested up to: 9.3
@@ -342,14 +342,6 @@ body.single-post .aft-image-caption {
     font-size: 16px
 }
 
-.entry-content .wp-block-cover .wp-block-cover__background,
-.entry-content .wp-block-cover .wp-block-cover__gradient-background,
-.entry-content .wp-block-cover-image .wp-block-cover__background,
-.entry-content .wp-block-cover-image .wp-block-cover__gradient-background,
-.entry-content .wp-block-cover-image.has-background-dim:not(.has-background-gradient):before,
-.entry-content .wp-block-cover.has-background-dim:not(.has-background-gradient):before {
-    margin-bottom: 0
-}
 
 @media only screen and (max-width: 375px) {
     body .site-branding .site-title {
@@ -410,18 +402,4 @@ body.single-post .aft-image-caption {
     body.single-content-mode-boxed article.af-single-article .post-thumbnail.full-width-image {
         padding-top: 2.5rem
     }
-}
-
-body .aft-pagebuilder-page-section > .vce-row-container{
-    max-width: 1280px;
-}
-.fl-builder .aft-pagebuilder-page-section > .fl-builder-content ,
-.aft-pagebuilder-full-width-content .site-main>.rz-root__container,
-.aft-pagebuilder-full-width-content .site-main>.fl-builder-content {
-    max-width: unset;
-}
-
-.vcwb button,
-.fl-builder button{
-    height: unset;
 }
