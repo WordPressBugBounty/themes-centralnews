@@ -5,7 +5,7 @@ Author:     AF themes
 Author URI: https://afthemes.com/
 Description: CentralNews is a user-friendly WordPress theme designed for news, blog, and magazine websites. It lets you quickly set up your site with one-click demo imports and easily manage content using 9+ custom widgets. The theme offers stylish options like various banners, light/dark mode, and is customizable via the live customizer. Supporting RTL languages and compatible with Elementor, Gutenberg blocks, and WooCommerce, it even allows for seamless integration of an online store. CentralNews is optimized for search engines and comes with dedicated support. Explore demos and documentation at https://afthemes.com/products/centralnews/.
 Template: morenews
-Version: 2.0.26
+Version: 2.0.27
 Requires at least: 4.0
 Requires PHP: 5.3
 Tested up to: 6.7
@@ -180,17 +180,6 @@ a.comment-reply-link {
 .aft-dark-mode #content a:visited {
     color: #fff;
 }
-
-
-body.aft-dark-mode .aft-masonry-archive-posts .no-post-image .read-img,
-body.aft-dark-mode .af-reated-posts.morenews-customizer .no-post-image .read-img.read-bg-img {
-    height: unset !important;
-    background: transparent;
-    padding-top: 0;
-    display: flex;
-    align-items: center;
-}
-
 
 .wp-block-table thead {
     border-bottom: 2px solid
