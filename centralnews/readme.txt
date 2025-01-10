@@ -3,7 +3,7 @@ Contributors: afthemes
 Requires at least: 4.0
 Requires PHP: 5.3
 Tested up to: 6.7
-Stable tag: 2.0.35
+Stable tag: 2.0.36
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, three-columns, four-columns, grid-layout, block-patterns, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments, wide-blocks
@@ -46,6 +46,10 @@ CentralNews includes support for the following plugins:
 - **Yoast SEO**: Supports enhanced SEO features and breadcrumbs for improved visibility.
 
 == Change-log ==
+= 2.0.36 - Jan 10 2025 =
+* Update - Style improvement
+* Update - Block Style improvement
+
 = 2.0.35 - Jan 08 2025 =
 * Update - Style improvement
 * Update - Block Style improvement
