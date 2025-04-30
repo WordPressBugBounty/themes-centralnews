@@ -11,6 +11,7 @@ if (!function_exists('centralnews_theme_enqueue_styles')) {
         // Enqueue Parent and Child Theme Styles
         wp_enqueue_style('bootstrap', get_template_directory_uri() . '/assets/bootstrap/css/bootstrap' . $min . '.css', array(), $centralnews_version);
         wp_enqueue_style($parent_style, get_template_directory_uri() . '/style' . $min . '.css', array(), $centralnews_version);
+        
         wp_enqueue_style(
             'centralnews',
             get_stylesheet_directory_uri() . '/style.css',
