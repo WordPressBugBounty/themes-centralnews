@@ -46,7 +46,7 @@ CentralNews includes support for the following plugins:
 - **Yoast SEO**: Supports enhanced SEO features and breadcrumbs for improved visibility.
 
 == Change-log ==
-= 2.1.1 - Jun 24 2025 =
+= 2.1.1 - Aug 15 2025 =
 * New - Light/Dark mode toggle and dark mode design improvements
 * Options - Customizing > Header Options > Header Settings > Site Mode Switch
 * Update - Admin notice improvement
