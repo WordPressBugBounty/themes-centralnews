@@ -72,7 +72,6 @@ function centralnews_filter_default_theme_options($defaults)
     $defaults['header_layout'] = 'header-layout-centered';
     $defaults['aft_custom_title']           = __('Video', 'centralnews');
     $defaults['secondary_color'] = '#BF0A30';
-    $defaults['global_show_min_read'] = 'no';
     $defaults['select_update_post_filterby'] = 'cat';   
     $defaults['frontpage_content_type']  = 'frontpage-widgets-and-content';
     $defaults['featured_news_section_title'] = __('Featured', 'centralnews');
