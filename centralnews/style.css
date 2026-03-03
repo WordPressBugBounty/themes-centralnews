@@ -5,7 +5,7 @@ Author:     AF themes
 Author URI: https://afthemes.com/
 Description: CentralNews is a user-friendly WordPress child theme built on MoreNews for news, blogs and magazines that prioritize editorial simplicity and quick setup; it features 1-click demo import, live customizer controls, 9+ custom widgets, multiple banner options, header/footer builder compatibility, light/dark mode, and works with Gutenberg, Elementor and WooCommerce; CentralNews is AMP-ready, SEO and Core Web Vitals optimized, multilingual and RTL-ready, and ideal for publishers who want a straightforward, polished site with strong performance and easy content management. https://afthemes.com/products/centralnews/
 Template: morenews
-Version: 2.1.22
+Version: 2.1.23
 Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 6.9
@@ -425,6 +425,14 @@ form.wpcf7-form label input[type="checkbox"]{
 .entry-content .gallery {
     margin-top: 0;
     margin-bottom: 24px;
+}
+
+body.aft-dark-mode.single span.tags-links a, 
+body.aft-dark-mode .main-navigation .menu .menu-mobile li a, 
+body.aft-dark-mode .widget ul ul li, 
+body.aft-dark-mode .widget ul.menu>li, 
+body.aft-dark-mode .widget>ul>li {
+    border-top-color: rgba(255, 255, 255, 0.2);
 }
 
 @media only screen and (max-width: 375px) {
