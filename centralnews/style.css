@@ -5,7 +5,7 @@ Author:     AF themes
 Author URI: https://afthemes.com/
 Description: CentralNews is a user-friendly WordPress child theme built on MoreNews for news, blogs and magazines that prioritize editorial simplicity and quick setup; it features 1-click demo import, live customizer controls, 9+ custom widgets, multiple banner options, header/footer builder compatibility, light/dark mode, and works with Gutenberg, Elementor and WooCommerce; CentralNews is AMP-ready, SEO and Core Web Vitals optimized, multilingual and RTL-ready, and ideal for publishers who want a straightforward, polished site with strong performance and easy content management. https://afthemes.com/products/centralnews/
 Template: morenews
-Version: 2.1.26
+Version: 2.1.27
 Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 6.9
@@ -435,18 +435,7 @@ body.aft-dark-mode .widget>ul>li {
     border-top-color: rgba(255, 255, 255, 0.2);
 }
 
-body.aft-dark-mode .archive-layout-list .no-post-image .read-bg-img,
-body.aft-dark-mode .archive-layout-grid .no-post-image .read-bg-img,
-body.aft-dark-mode .featured-posts.morenews-customizer .no-post-image .read-bg-img,
-body.aft-dark-mode .grid-layout.morenews-customizer .no-post-image .read-bg-img,
-body.aft-dark-mode .latest-posts-grid .no-post-image .read-bg-img {
-    height: unset !important;
-    background: transparent;
-    padding-top: 0;
-    display: flex;
-    aspect-ratio: unset !important;
-    flex-direction: column;
-}
+
 
 article.sticky .read-single.no-post-image > div.read-img::before{
     top: 0;
