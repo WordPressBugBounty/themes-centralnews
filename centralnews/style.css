@@ -5,7 +5,7 @@ Author:     AF themes
 Author URI: https://afthemes.com/
 Description: CentralNews is a user-friendly WordPress child theme built on MoreNews for news, blogs and magazines that prioritize editorial simplicity and quick setup; it features 1-click demo import, live customizer controls, 9+ custom widgets, multiple banner options, header/footer builder compatibility, light/dark mode, and works with Gutenberg, Elementor and WooCommerce; CentralNews is AMP-ready, SEO and Core Web Vitals optimized, multilingual and RTL-ready, and ideal for publishers who want a straightforward, polished site with strong performance and easy content management. https://afthemes.com/products/centralnews/
 Template: morenews
-Version: 3.1.12
+Version: 3.2.0
 Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 7.1
@@ -212,9 +212,20 @@ article.sticky .af-double-column.no-post-image .read-single > div.read-img::befo
 .entry-content .wp-block-calendar tbody a {
     color: inherit !important;
 }
-.wp-block-rss li a,
+.wp-block-rss li a, 
 .wp-block-categories a, 
-.wp-block-archives a{
+.wp-block-archives a,
+.wp-block-latest-comments li a, 
+.wp-block-latest-posts li a, 
+.wp-block-tag-cloud a,
+.wp-block-page-list a,
+.wp-block-navigation a,
+.wp-block-query a,
+.wp-block-post-title a,
+.wp-block-post-excerpt__more-link,
+.wp-block-post-comments-form a,
+.wp-block-loginout a,
+.wp-block-calendar tbody a {
     font-weight: 700;
     transition: all 0.075s linear;
 }
@@ -236,6 +247,7 @@ input.awpa-rating-button {
 .wp-block-button.is-style-outline a.wp-block-button__link:not(.has-border-color) {
     border-color: unset;
 }
+
 /* .wp-block-comment-content a,
 .comments-area .comment-content a,
 .widget_text a,
@@ -243,4 +255,9 @@ input.awpa-rating-button {
 .entry-content>:is(ul, ol, p) a:hover,
 .entry-content>:is(ul, ol, h1, h2, h3, h4, h5, h6, p) a {
     text-decoration: auto;
+} */
+
+/* .entry-content [class^="wp-block-"] a,
+.entry-content [class*=" wp-block-"] a {
+    color: inherit !important;
 } */
